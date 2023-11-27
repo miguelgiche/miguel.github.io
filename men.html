@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Create a grid layout for the items */
+        .item-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+            grid-auto-rows: minmax(150px, auto); /* Adjust the minimum row height as needed */
+            gap: 20px;
+        }
+
+        /* Style for each item */
+        .item {
+            text-align: center;
+        }
+
+        /* Style for the item image */
+        .item img {
+            width: 100%;
+            max-height: 150px;
+            object-fit: cover;
+            border-radius: 8px; /* Optional: add border-radius for rounded corners */
+        }
+
+        /* Style for the price tag */
+        .price {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #3498db; /* Set the color of the price tag */
+        }  
+    </style>
+    <title>Men shoes with Prices</title>
+</head>
+<body>
+ <div class="item-grid">
+    <div class="item">
+        <img src="https://imgs.search.brave.com/wN355_fsHUH_4ce-sQtt-A9wnM0eyk36GD068b6DYMA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODQ4/MTMyNDk0L3Bob3Rv/L3Nob2VzLWJveC5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/NVZWZnF6T1dWRzhm/bG0wc1VLV04tNG4z/UkNRaWRZVkcyS0ZB/SDlGZ0tROD0" alt="Item 1">
+        <a href="order_submition.html" class="price">KSH 3000</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/gGYezorlQy88rgx0PLS7a5CsD4mCJM4wTpkposhQxeY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYWRpZGFzLmNv/bS9pbWFnZXMvd18z/ODMsaF8zODMsZl9h/dXRvLHFfYXV0byxm/bF9sb3NzeSxjX2Zp/bGwsZ19hdXRvLzI5/YTdjYWQ4MTk0NTQ2/YjM5MDQ4NTNlN2Uw/MWQwNGQ0XzkzNjYv/bm1kX2cxLXNob2Vz/LmpwZw" alt="Item 2">
+        <a href="order_submition.html" class="price">KSH 3200</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/dNZVprXDrRvL0Gm8MFqn0FzQ52Chl_iR2lPD55G226g/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2Y0Lzc4/L2RhL2Y0NzhkYThh/ZmEzYTFiMDBlMDJl/M2UwNWE5MGQ1ZDEy/LmpwZw" alt="Item 3">
+        <a href="order_submition.html" class="price">KSH2000</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/wOing4ExFNM1-BLMxfzSXWMGAAS7SS5NQ1grwPHRU1M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2VlLzMx/L2I0L2VlMzFiNDBi/Nzk4N2Y3MjNhZWUw/MjViMzkxOWIyYTBh/LmpwZw" alt="Item 4">
+        <a href="order_submition.html" class="price">KSH 2500</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/wwwxWDUaOwRA58J8Zyr7Qs6OtV5M0oMoew6UJJsnEzY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU1LzNk/LzU0LzU1M2Q1NDlj/OGMxY2RlNTA1YmQ2/MWVmY2M3YjM0MWMy/LmpwZw" alt="Item 5">
+        <a href="order_submition.html" class="price">KSH 2700</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/hhKA8Mf1rqkMXpm78TDpeaeXt0Aza9mPAzCyDvgsBek/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9iZXN0/LXNob2VzLTE2MTA0/MTg1ODUuanBnP2Ny/b3A9MC41MDJ4dzox/LjAweGg7MC4yODJ4/dywwJnJlc2l6ZT0z/NjA6Kg" alt="Item 6">
+        <a href="order_submition.html" class="price">KSH3000</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/WOzmQg47yABEdgeRUej4PNdvnDJ-keqsKBFfCFByRT4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTg1/MDExNzYzL3Bob3Rv/L3Nob2VzLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1peVJn/aWR6eDN6cWNGX1hT/UzlrY3JLYW0xaXkw/VVg5bE1GTUlCS3c3/WDJZPQ" alt="Item 7">
+        <a href="order_submition.html" class="price">KSH3200</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/z2e80ZAaActBqh8sKUpUwPhyWJbfDjHdg62yTXWo-kU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuYWRpZGFzLmNv/bS9pbWFnZXMvd18z/ODMsaF8zODMsZl9h/dXRvLHFfYXV0byxm/bF9sb3NzeSxjX2Zp/bGwsZ19hdXRvL2Jk/MGQ4YTU4MDcwMjQy/YzFhZjE0OWU1ZjFi/Y2ZjMTFkXzkzNjYv/Zm9ydW0tODQtaGln/aC1zaG9lcy5qcGc" alt="item 8">
+        <a href="order_submition.html" class="price">KSH 3100</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/7oMiy-D5g8vy-dGXXfbVhplNtLcLbZtPlCYm0BBHXXg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjUx/NTE5NzExLWRvd25s/b2FkLTQtMTY1MTUx/OTcwNS5qcGc_Y3Jv/cD0xLjAweHc6MC43/NTF4aDswLDAuMjQ5/eGgmcmVzaXplPTk4/MDoq" alt="Item 9">
+        <a href="order_submition.html" class="price">KSH 3500</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/Vk-OnGzQmGQ2zAPT-HY1nSCyEwMPJiLH5zd7hiG_w9s/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2FkLzli/LzQwL2FkOWI0MGVm/MGZjNTk0NjUzNGVh/YWQ1OGRmMGZlNWFl/LmpwZw" alt="Item 10">
+        <a href="order_submition.html" class="price">KSH 2000</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/CKWueezkRtY1bs73wfnAywhsfugpyXhTk4Sq55q0yl4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dG9wb2ZzdHlsZS5j/b20vYmxvZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8xMi9v/bGQtc2tvb2wtc2hv/ZXMuanBn" alt="Item 11">
+        <a href="order_submition.html" class="price">KSH 2500</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/UqHnWeI7F16M4pyXF27d7cw8E9fKYSc1rA1Mc9ijmDM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/dG9wb2ZzdHlsZS5j/b20vYmxvZy93cC1j/b250ZW50L3VwbG9h/ZHMvMjAxOS8xMi93/YWxraW5nLXNob2Vz/LmpwZw" alt="Item 12">
+        <a href="order_submition.html" class="price">KSH 2700</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/3MUkIP1Q9EuM4fGmo9LwjYoZfc1xsLa6Bz1-Fj--aJI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTA4/MjczMzU4OC9waG90/by9zaG9lLW1vZGVs/LXNob290aW5nLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz04/dE9RYTNpdWVIV1lE/dGRXMTBGeDRMcTJ2/cWhIWTI2Z2MyejJM/M1hUUzFjPQ" alt="Item 13">
+        <a href="order_submition.html" class="price">KSH 2700</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/eH3f4CwJQizNJGoael-mc-wD2rqKgiwyxSYGWvgfW8g/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ibG9n/LmdpdmluZ2Fzc2lz/dGFudC5vcmcvd3At/Y29udGVudC91cGxv/YWRzL25pa2UtbGVi/cm9uMTcuanBn" alt="Item 14">
+        <a href="order_submition.html" class="price">KSH 2200</a>
+    </div>
+    <div class="item">
+        <img src="https://imgs.search.brave.com/cmFzqs2Z26tbfmwhJvoGSkK-WDFNtqSa4mNtYSqo9PA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjE5/NDg3MTkzLWE5ZTE2/ZTAwLTgxYmUtNDgw/NC04ZDU1LWFiNmQ1/NDI5MWU5My0xNjE5/NDg3MTgzLmpwZz9j/cm9wPTF4dzoxeGg7/Y2VudGVyLHRvcCZy/ZXNpemU9OTgwOio" alt="Item 15">
+        <a href="order_submition.html" class="price">KSH 1700</a>
+    </div>
+
+    
+</div>
+
+</body>
+</html>
